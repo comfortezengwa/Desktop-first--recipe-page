@@ -1,0 +1,132 @@
+/* reset browser preset settings */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*-- Hero section --*/
+.Hero {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 12px 12px;
+}
+
+.Hero img {
+    align-items: center;
+    margin: 20px 20px;
+    border-radius: 8px;
+}
+
+.Hero h1 {
+    text-align: left;
+    font-size: 40px;
+    margin: 0px 20px;
+}
+
+.Hero p {
+    display: flex;
+    margin: 0px 20px;
+}
+
+
+/*-- Preparation --*/
+#Preparation {
+     background-color: rgb(253, 229, 233);
+     display: flex;
+     flex-direction: column;
+     margin: 20px 20px;
+     padding: 20px 20px;
+     gap: 20px;
+     border-radius: 8px;
+     align-items:left;
+}
+
+#Preparation h4 {
+    color: chocolate;
+    font-size: 18px;
+}
+
+#Preparation ul li {
+    line-height: 1.5;
+}
+
+
+/*-- Ingredients --*/
+.Ingredients {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 1.5;
+}
+
+.Ingredients h2 {
+    color: chocolate;
+}
+
+.Ingredients ul li::marker {
+    color: chocolate;
+    font-weight: bold;
+}
+
+
+/*-- Instructions --*/
+#Instructions {
+    margin: 20px 20px;
+    line-height: 2;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#Instructions h2 {
+    color: chocolate;
+}
+
+#Instructions ol li::marker {
+    color: chocolate;
+    font-weight: bold;
+}
+
+
+/*--Nutrition--*/
+.Nutrition {
+    margin: 20px 20px;
+}
+
+.Nutrition h2 {
+    color: chocolate;
+    margin-bottom: 20px;
+}
+
+.Nutrition p {
+    margin: 20px 0px ;
+}
+
+.Nutrition table {
+    border-collapse: collapse; 
+    margin: 0px 20px;
+}
+
+.Nutrition tbody tr td {
+    border: 1px solid rgb(145, 144, 144);
+    text-align: center;
+    padding: 15px 15px;
+    width: 1000px;
+    display: flexbox;
+}  
+
+.Nutrition tbody tr td span {
+    color: chocolate;
+    font-weight: bold;
+}
+    
+hr {
+    opacity: 0.3;
+}
+    
